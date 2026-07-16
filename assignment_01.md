@@ -21,6 +21,12 @@
    * `is_taxable`: a Boolean
    * `sales_tax_rate` (between `0.00` and `20.00`)
 
+
+Make sure to use type hints in the function parameters and return values.
+
+Make sure that the function signature matches these expecations
+
+
 ## Test Data for `calculate_taxes`
 
 | quantity | unit_price | is_taxable | sales_tax_rate |
