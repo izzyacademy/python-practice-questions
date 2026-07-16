@@ -10,11 +10,11 @@
    * A Boolean called `is_taxable`
    * `sales_tax_rate` (between `0.00` and `20.00`)
 
-   It should calculate and return the sales tax if the item is taxable.
+   It should calculate and return the sales tax as a decimal if the item is taxable.
 
 2. Create a function called `calculate_subtotal`.
 
-   It accepts the following parameters and returns the subtotal, including the taxes if applicable:
+   It accepts the following parameters and returns the subtotal as a decimal number, including the taxes if applicable:
 
    * `quantity`: an integer
    * `unit_price`: a floating-point number
