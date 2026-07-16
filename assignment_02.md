@@ -110,7 +110,7 @@ calculate_taxes_test_data = [
 Use the following array of dictionaries to loop through each element can calculate the subtotal for each element and display it
 
 
-```
+```python
 calculate_subtotal_test_data = [
     {
         "quantity": 5,
